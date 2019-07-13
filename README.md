@@ -16,6 +16,10 @@ print(user.gamerscore)
 # If you want to see how many games I have played in total
 print(user.total_games_played)
 ```
+```python
+class GamertagNotFoundError(Exception):
+    pass
+```
 <div id="gamertag">
 <dl>
   <dt id="xboxgamertag.Gamertag">
